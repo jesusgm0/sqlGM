@@ -1,0 +1,13 @@
+create db_rh
+use db_rh
+
+create table tb_empresa(
+id_rh bigint(5) auto_increment,
+nome varchar(45) not null,
+regfunc bigint(6) not null,
+cargo varchar(30) not null, 
+cpf varchar(15) not null,
+email varchar(30) not null,
+ativo boolean,
+primary key (id_rh)
+);
